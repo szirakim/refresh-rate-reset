@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Refresh Rate Reset</string>
+    <string name="reset">Reset</string>
+    <string name="current_refresh_rate">Current refresh rate</string>
+    <string name="about">About</string>
+    <string name="about_content">I wrote this app to fix my Samsung Galaxy S21 Ultra refresh rate bug, sometimes refresh rate is very low (~30fps) after waking up the phone, waking it up again results a constant 120Hz. The fix seems to be only temporary, after some time something fucks up again, thank you Samsung!\n\nThe app targets Android L api 21 to avoid permission problems: android.permission.WRITE_SETTINGS. The refresh rate is reset in 4 steps:\n\n‣ sets the min refresh rate to a low value\n‣ sets the peak refresh rate to a low value\n‣ resets the min refresh rate\n‣ resets the peak refresh rate\n\nThe problem can also be solved via adb commands in order:\n\n‣ adb shell settings put system min_refresh_rate 10\n‣ adb shell settings put system peak_refresh_rate 60\n‣ adb shell settings put system min_refresh_rate reset\n‣ adb shell settings put system peak_refresh_rate reset</string>
+    <string name="created_by">Created by</string>
+    <string name="created_by_content">Matyas Sziraki\nszirakiapps.com\ntellme@szirakiapps.com</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.RefreshRateReset" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/green_200</item>
+        <item name="colorPrimaryDark">@color/green_300</item>
+        <item name="colorAccent">@color/green_100</item>
+    </style>
+</resources>
